@@ -14,7 +14,7 @@ def process_tweet_text(text):
     return text
 
 
-with open("config.yaml", "r") as f:
+with open("config.yml", "r") as f:
     cfg = yaml.load(f)
 
 auth = tweepy.OAuthHandler(cfg['consumer_key'], cfg['consumer_secret'])
