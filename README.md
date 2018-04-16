@@ -1,6 +1,6 @@
 # Tweet Generator
 
-![dank](/docs/textgenrnn_console.gif)
+![dank](textgenrnn_console.gif)
 
 Train a neural network optimized for generating tweets based off of any number of Twitter users! Blend wildly different Twitter users together for hilarity!
 
