@@ -4,7 +4,7 @@
 
 Train a neural network optimized for generating tweets based off of any number of Twitter users! Blend wildly different Twitter users together for hilarity!
 
-Tweet Generator is based off of textgenrnn, and trains the network using context labels for better tweet synthesis.
+Tweet Generator is based off of [textgenrnn](https://github.com/minimaxir/textgenrnn), and trains the network using context labels for better tweet synthesis.
 
 ## Usage
 
