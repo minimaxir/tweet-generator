@@ -53,7 +53,7 @@ if cfg['new_model']:
         num_epochs=cfg['num_epochs'],
         gen_epochs=cfg['gen_epochs'],
         batch_size=cfg['batch_size'],
-        prop_keep=cfg['prop_keep'],
+        train_size=cfg['train_size'],
         rnn_layers=cfg['model_config']['rnn_layers'],
         rnn_size=cfg['model_config']['rnn_size'],
         rnn_bidirectional=cfg['model_config']['rnn_bidirectional'],
@@ -66,5 +66,5 @@ else:
         context_labels=context_labels,
         num_epochs=cfg['num_epochs'],
         gen_epochs=cfg['gen_epochs'],
-        prop_keep=cfg['prop_keep'],
+        train_size=cfg['train_size'],
         batch_size=cfg['batch_size'])

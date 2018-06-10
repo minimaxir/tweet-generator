@@ -1,7 +1,7 @@
-consumer_key:
-consumer_secret:
-access_key:
-access_secret:
+consumer_key: 
+consumer_secret: 
+access_key: 
+access_secret: 
 
 twitter_users:
   - realDonaldTrump
@@ -10,7 +10,7 @@ twitter_users:
 num_epochs: 5
 gen_epochs: 1
 batch_size: 128
-prop_keep: 1.0
+train_size: 1.0
 new_model: False
 
 # Only applicable if new_model: True
